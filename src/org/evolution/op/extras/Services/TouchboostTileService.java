@@ -16,7 +16,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.op.extras;
+package org.evolution.op.extras.services;
 
 import android.annotation.TargetApi;
 import android.content.Intent;

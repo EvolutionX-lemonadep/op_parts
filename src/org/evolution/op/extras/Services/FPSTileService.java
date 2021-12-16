@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.evolution.op.extras;
+package org.evolution.op.extras.services;
 
 import android.app.ActivityManager;
 import android.content.Intent;
