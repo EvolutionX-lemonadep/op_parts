@@ -15,6 +15,11 @@ import android.os.IBinder;
 import android.os.PowerManager;
 import androidx.preference.PreferenceManager;
 
+import org.evolution.device.DeviceExtras.FileUtils;
+import org.evolution.device.DeviceExtras.DeviceExtras;
+
+import org.evolution.device.DeviceExtras.R;
+
 public class AutoHBMService extends Service {
     private static final int HBM_NODE = R.string.node_auto_hbm_service;
 

@@ -24,7 +24,9 @@ import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceManager;
 
-import org.evolution.device.DeviceExtras.DeviceExtras;
+import org.evolution.device.DeviceExtras.FileUtils;
+
+import org.evolution.device.DeviceExtras.R;
 
 public class TouchboostModeSwitch implements OnPreferenceChangeListener {
 

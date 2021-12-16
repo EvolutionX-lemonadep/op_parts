@@ -25,6 +25,8 @@ import android.service.quicksettings.TileService;
 import androidx.preference.PreferenceManager;
 
 import org.evolution.device.DeviceExtras.DeviceExtras;
+import org.evolution.device.DeviceExtras.modeswitch.DCModeSwitch;
+import org.evolution.device.DeviceExtras.FileUtils;
 
 @TargetApi(24)
 public class DCModeTileService extends TileService {

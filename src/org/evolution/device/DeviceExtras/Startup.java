@@ -27,6 +27,9 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import androidx.preference.PreferenceManager;
 
+import org.evolution.device.DeviceExtras.modeswitch.*;
+import org.evolution.device.DeviceExtras.services.FPSInfoService;
+
 public class Startup extends BroadcastReceiver {
 
     private boolean mHBM = false;

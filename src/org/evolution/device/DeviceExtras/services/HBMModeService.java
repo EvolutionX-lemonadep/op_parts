@@ -24,7 +24,8 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.IBinder;
 
-import org.evolution.device.DeviceExtras.HBMModeSwitch;
+import org.evolution.device.DeviceExtras.FileUtils;
+import org.evolution.device.DeviceExtras.modeswitch.HBMModeSwitch;
 
 public class HBMModeService extends Service {
 

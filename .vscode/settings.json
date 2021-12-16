@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/hardik/Library/Android/sdk/platforms/android-31/android.jar"
+    ]
+}

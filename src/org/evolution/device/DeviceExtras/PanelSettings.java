@@ -48,6 +48,8 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.TwoStatePreference;
 import androidx.viewpager.widget.ViewPager;
 
+import org.evolution.device.DeviceExtras.modeswitch.*;
+
 public class PanelSettings extends PreferenceFragment implements RadioGroup.OnCheckedChangeListener {
     private RadioGroup mRadioGroup;
     ViewPager viewPager;

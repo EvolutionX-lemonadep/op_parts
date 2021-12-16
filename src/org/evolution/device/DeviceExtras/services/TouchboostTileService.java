@@ -25,6 +25,8 @@ import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
 import androidx.preference.PreferenceManager;
 
+import org.evolution.device.DeviceExtras.FileUtils;
+import org.evolution.device.DeviceExtras.modeswitch.TouchboostModeSwitch;
 import org.evolution.device.DeviceExtras.DeviceExtras;
 
 @TargetApi(24)

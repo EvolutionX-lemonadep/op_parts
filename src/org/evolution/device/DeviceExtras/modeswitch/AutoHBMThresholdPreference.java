@@ -26,6 +26,11 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceViewHolder;
 
+import org.evolution.device.DeviceExtras.DeviceExtras;
+
+import org.evolution.device.DeviceExtras.R;
+import org.evolution.device.DeviceExtras.CustomSeekBarPreference;
+
 public class AutoHBMThresholdPreference extends CustomSeekBarPreference {
 
     public AutoHBMThresholdPreference(Context context, AttributeSet attrs) {

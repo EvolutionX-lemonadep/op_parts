@@ -25,6 +25,12 @@ import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 
+import org.evolution.device.DeviceExtras.FileUtils;
+import org.evolution.device.DeviceExtras.DeviceExtras;
+
+import org.evolution.device.DeviceExtras.R;
+import org.evolution.device.DeviceExtras.CustomSeekBarPreference;
+
 public class VibratorStrengthPreference extends CustomSeekBarPreference {
 
     private static int mDefVal;

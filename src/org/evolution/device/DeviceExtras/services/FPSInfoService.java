@@ -54,6 +54,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import org.evolution.device.DeviceExtras.FileUtils;
+
+import org.evolution.device.DeviceExtras.R;
+
 public class FPSInfoService extends Service {
     private View mView;
     private Thread mCurFPSThread;

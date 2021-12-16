@@ -19,6 +19,10 @@ package org.evolution.device.DeviceExtras.modeswitch;
 
 import android.content.Context;
 
+import org.evolution.device.DeviceExtras.FileUtils;
+
+import org.evolution.device.DeviceExtras.R;
+
 public class HBMModeSwitch {
 
     private static final int NODE = R.string.node_hbm_mode_switch;

@@ -27,6 +27,12 @@ import android.util.AttributeSet;
 
 import java.util.List;
 
+import org.evolution.device.DeviceExtras.FileUtils;
+import org.evolution.device.DeviceExtras.DeviceExtras;
+
+import org.evolution.device.DeviceExtras.R;
+import org.evolution.device.DeviceExtras.CustomSeekBarPreference;
+
 public class VibratorCallStrengthPreference extends CustomSeekBarPreference {
 
     private Vibrator mVibrator;

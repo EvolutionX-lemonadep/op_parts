@@ -21,6 +21,8 @@ import android.annotation.TargetApi;
 import android.content.Intent;
 import android.service.quicksettings.TileService;
 
+import org.evolution.device.DeviceExtras.PanelSettingsActivity;
+
 @TargetApi(24)
 public class PanelModeTileService extends TileService {
     @Override

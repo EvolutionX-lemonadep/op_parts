@@ -23,6 +23,10 @@ import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceManager;
 
+import org.evolution.device.DeviceExtras.FileUtils;
+
+import org.evolution.device.DeviceExtras.R;
+
 public class SRGBModeSwitch implements OnPreferenceChangeListener {
 
     private static final int NODE = R.string.node_srgb_mode_switch;

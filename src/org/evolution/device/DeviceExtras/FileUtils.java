@@ -35,6 +35,8 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 
+import org.evolution.device.DeviceExtras.services.AutoHBMService;
+
 public class FileUtils {
     private static final String TAG = "FileUtils";
 
