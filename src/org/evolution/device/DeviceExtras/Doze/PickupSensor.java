@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.evolution.device.DeviceExtras.doze;
+package org.evolution.op.extras.doze;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -27,7 +27,7 @@ import android.os.PowerManager.WakeLock;
 import android.os.SystemClock;
 import android.util.Log;
 
-import org.evolution.device.DeviceExtras.R;
+import org.evolution.op.extras.R;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

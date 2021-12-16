@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.evolution.device.DeviceExtras;
+package org.evolution.op.extras;
 
 import android.content.Context;
 import android.text.TextUtils;

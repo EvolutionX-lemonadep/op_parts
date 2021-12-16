@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.evolution.device.DeviceExtras;
+package org.evolution.op.extras;
 
 import android.app.ActivityManager;
 import android.content.Intent;
@@ -38,7 +38,7 @@ public class FPSTileService extends TileService {
               (ActivityManager) getSystemService(this.ACTIVITY_SERVICE);
       for (ActivityManager.RunningServiceInfo service :
               manager.getRunningServices(Integer.MAX_VALUE)) {
-          if (org.evolution.device.DeviceExtras.FPSInfoService.class.getName().equals(
+          if (org.evolution.op.extras.FPSInfoService.class.getName().equals(
                   service.service.getClassName())) {
               isShowing = true;
           }
@@ -48,7 +48,7 @@ public class FPSTileService extends TileService {
 
   @Override
   public void onClick() {
-      Intent fpsinfo = new Intent(this, org.evolution.device.DeviceExtras.FPSInfoService.class);
+      Intent fpsinfo = new Intent(this, org.evolution.op.extras.FPSInfoService.class);
       if (!isShowing)
           this.startService(fpsinfo);
       else

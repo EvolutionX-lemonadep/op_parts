@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.evolution.device.DeviceExtras.slider;
+package org.evolution.op.extras.slider;
 
 import android.content.Context;
 import android.media.AudioManager;
 import android.util.Log;
 import android.util.SparseIntArray;
 
-import org.evolution.device.DeviceExtras.Constants;
-import org.evolution.device.DeviceExtras.SliderControllerBase;
+import org.evolution.op.extras.Constants;
+import org.evolution.op.extras.SliderControllerBase;
 
 public final class RingerController extends SliderControllerBase {
 

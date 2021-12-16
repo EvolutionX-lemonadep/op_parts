@@ -18,7 +18,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.device.DeviceExtras;
+package org.evolution.op.extras;
 
 import android.app.ActivityManager;
 import android.app.AlertDialog;
@@ -52,12 +52,12 @@ import androidx.preference.TwoStatePreference;
 
 import java.util.Arrays;
 
-import org.evolution.device.DeviceExtras.Constants;
-import org.evolution.device.DeviceExtras.doze.DozeSettingsActivity;
-import org.evolution.device.DeviceExtras.kcal.KCalSettingsActivity;
-import org.evolution.device.DeviceExtras.FileUtils;
-import org.evolution.device.DeviceExtras.R;
-import org.evolution.device.DeviceExtras.*;
+import org.evolution.op.extras.Constants;
+import org.evolution.op.extras.doze.DozeSettingsActivity;
+import org.evolution.op.extras.kcal.KCalSettingsActivity;
+import org.evolution.op.extras.FileUtils;
+import org.evolution.op.extras.R;
+import org.evolution.op.extras.*;
 
 public class DeviceExtras extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -410,7 +410,7 @@ public class DeviceExtras extends PreferenceFragment
             Boolean enabled = (Boolean) newValue;
             FileUtils.writeValue(HBMModeSwitch.getFile(getContext()), enabled ? "5" : "0");
             Intent hbmIntent = new Intent(this.getContext(),
-                    org.evolution.device.DeviceExtras.HBMModeService.class);
+                    org.evolution.op.extras.HBMModeService.class);
             if (enabled) {
                 this.getContext().startService(hbmIntent);
             } else {
@@ -420,7 +420,7 @@ public class DeviceExtras extends PreferenceFragment
           } else if (preference == mFpsInfo) {
             boolean enabled = (Boolean) newValue;
             Intent fpsinfo = new Intent(this.getContext(),
-                    org.evolution.device.DeviceExtras.FPSInfoService.class);
+                    org.evolution.op.extras.FPSInfoService.class);
             if (enabled) {
                 this.getContext().startService(fpsinfo);
             } else {

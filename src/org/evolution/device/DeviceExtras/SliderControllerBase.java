@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.evolution.device.DeviceExtras;
+package org.evolution.op.extras;
 
 import android.content.Context;
 import android.content.Intent;
@@ -22,7 +22,7 @@ import android.os.UserHandle;
 import android.os.Vibrator;
 import android.util.Log;
 
-import org.evolution.device.DeviceExtras.Constants;
+import org.evolution.op.extras.Constants;
 
 public abstract class SliderControllerBase {
 

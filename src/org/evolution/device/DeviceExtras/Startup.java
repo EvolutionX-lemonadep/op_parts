@@ -17,7 +17,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.device.DeviceExtras;
+package org.evolution.op.extras;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -36,8 +36,8 @@ public class Startup extends BroadcastReceiver {
 
         DeviceExtras.restoreSliderStates(context);
         EarGainPreference.restore(context);
-        org.evolution.device.DeviceExtras.doze.DozeUtils.checkDozeService(context);
-        org.evolution.device.DeviceExtras.kcal.KCalSettings.restore(context);
+        org.evolution.op.extras.doze.DozeUtils.checkDozeService(context);
+        org.evolution.op.extras.kcal.KCalSettings.restore(context);
         MicGainPreference.restore(context);
         VibratorCallStrengthPreference.restore(context);
         VibratorNotifStrengthPreference.restore(context);

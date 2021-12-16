@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.device.DeviceExtras.kcal;
+package org.evolution.op.extras.kcal;
 
 import android.annotation.TargetApi;
 import android.content.Intent;

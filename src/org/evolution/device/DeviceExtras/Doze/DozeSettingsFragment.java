@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.evolution.device.DeviceExtras.doze;
+package org.evolution.op.extras.doze;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -41,7 +41,7 @@ import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 
-import org.evolution.device.DeviceExtras.R;
+import org.evolution.op.extras.R;
 
 public class DozeSettingsFragment extends PreferenceFragment implements OnPreferenceChangeListener,
         CompoundButton.OnCheckedChangeListener {

@@ -16,7 +16,7 @@
  * limitations under the License
  */
 
-package org.evolution.device.DeviceExtras.kcal;
+package org.evolution.op.extras.kcal;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -30,8 +30,8 @@ import android.widget.LinearLayout;
 import androidx.viewpager.widget.ViewPager;
 import androidx.core.content.ContextCompat;
 
-import org.evolution.device.DeviceExtras.R;
-import org.evolution.device.DeviceExtras.ViewPagerAdapter;
+import org.evolution.op.extras.R;
+import org.evolution.op.extras.ViewPagerAdapter;
 
 public class KCalSettingsActivity extends Activity implements KCalUtils {
 

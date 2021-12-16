@@ -16,7 +16,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.device.DeviceExtras;
+package org.evolution.op.extras;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -25,7 +25,7 @@ import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
 import androidx.preference.PreferenceManager;
 
-import org.evolution.device.DeviceExtras.DeviceExtras;
+import org.evolution.op.extras.DeviceExtras;
 
 @TargetApi(24)
 public class TouchboostTileService extends TileService {

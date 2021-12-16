@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.evolution.device.DeviceExtras.doze;
+package org.evolution.op.extras.doze;
 
 import android.content.Context;
 import android.content.Intent;

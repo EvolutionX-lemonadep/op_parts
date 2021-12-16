@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.evolution.device.DeviceExtras;
+package org.evolution.op.extras;
 
 import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;

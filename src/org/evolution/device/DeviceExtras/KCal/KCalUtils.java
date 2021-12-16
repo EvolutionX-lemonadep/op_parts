@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package org.evolution.device.DeviceExtras.kcal;
+package org.evolution.op.extras.kcal;
 
 public interface KCalUtils {
     String PREF_ENABLED = "kcal_enabled";

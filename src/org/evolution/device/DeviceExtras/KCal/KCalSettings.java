@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package org.evolution.device.DeviceExtras.kcal;
+package org.evolution.op.extras.kcal;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -25,9 +25,9 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
 import androidx.preference.SwitchPreference;
 
-import org.evolution.device.DeviceExtras.R;
-import org.evolution.device.DeviceExtras.CustomSeekBarPreference;
-import org.evolution.device.DeviceExtras.SecureSettingListPreference;
+import org.evolution.op.extras.R;
+import org.evolution.op.extras.CustomSeekBarPreference;
+import org.evolution.op.extras.SecureSettingListPreference;
 
 public class KCalSettings extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener, KCalUtils {

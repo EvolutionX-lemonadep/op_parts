@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.evolution.device.DeviceExtras;
+package org.evolution.op.extras;
 
 import android.content.Context;
 

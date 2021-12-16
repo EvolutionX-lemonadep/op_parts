@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package org.evolution.device.DeviceExtras.kcal;
+package org.evolution.op.extras.kcal;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -23,7 +23,7 @@ import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import org.evolution.device.DeviceExtras.R;
+import org.evolution.op.extras.R;
 
 public class PresetDialog extends DialogFragment {
     private CharSequence[] mEntries;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.evolution.device.DeviceExtras;
+package org.evolution.op.extras;
 
 import android.app.NotificationManager;
 import android.content.BroadcastReceiver;
@@ -36,14 +36,14 @@ import com.android.internal.os.DeviceKeyHandler;
 
 import java.util.Arrays;
 
-import org.evolution.device.DeviceExtras.Constants;
-import org.evolution.device.DeviceExtras.SliderControllerBase;
-import org.evolution.device.DeviceExtras.slider.NotificationController;
-import org.evolution.device.DeviceExtras.slider.FlashlightController;
-import org.evolution.device.DeviceExtras.slider.BrightnessController;
-import org.evolution.device.DeviceExtras.slider.RotationController;
-import org.evolution.device.DeviceExtras.slider.RingerController;
-import org.evolution.device.DeviceExtras.slider.NotificationRingerController;
+import org.evolution.op.extras.Constants;
+import org.evolution.op.extras.SliderControllerBase;
+import org.evolution.op.extras.slider.NotificationController;
+import org.evolution.op.extras.slider.FlashlightController;
+import org.evolution.op.extras.slider.BrightnessController;
+import org.evolution.op.extras.slider.RotationController;
+import org.evolution.op.extras.slider.RingerController;
+import org.evolution.op.extras.slider.NotificationRingerController;
 
 import vendor.oneplus.hardware.camera.V1_0.IOnePlusCameraProvider;
 

@@ -1,4 +1,4 @@
-package org.evolution.device.DeviceExtras;
+package org.evolution.op.extras;
 
 import android.app.KeyguardManager;
 import android.app.Service;
