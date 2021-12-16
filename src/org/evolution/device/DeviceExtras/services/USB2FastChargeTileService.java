@@ -25,7 +25,7 @@ import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
 import androidx.preference.PreferenceManager;
 
-import org.evolution.device.DeviceExtras.DeviceExtras;
+import org.evolution.device.DeviceExtras.FileUtils;
 
 @TargetApi(24)
 public class USB2FastChargeTileService extends TileService {
