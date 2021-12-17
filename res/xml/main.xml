@@ -122,7 +122,7 @@
             android:title="@string/auto_hbm_title"
             android:summary="@string/auto_hbm_summary" />
 
-        <org.evolution.device.DeviceExtras.AutoHBMThresholdPreference
+        <org.evolution.device.DeviceExtras.modeswitch.AutoHBMThresholdPreference
             android:key="auto_hbm_threshold"
             android:icon="@drawable/ic_autohbm_threshold"
             android:title="@string/auto_hbm_threshold_title"
